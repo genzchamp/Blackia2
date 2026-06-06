@@ -315,3 +315,20 @@ footer h3{
         padding:70px 20px;
     }
 }
+
+/* ANIMATIONS */
+
+.showcase,
+.product-card,
+.review,
+.ai-section,
+.contact{
+    opacity:0;
+    transform:translateY(60px);
+    transition:all 1s ease;
+}
+
+.show{
+    opacity:1;
+    transform:translateY(0);
+}
